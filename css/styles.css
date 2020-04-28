@@ -1,0 +1,164 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Kalam", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  margin-top: 0;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr  {
+  width: 5%;
+  border-top: 10px dotted gray;
+}
+
+.top-container {
+  background-color: #d7fffd;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.desktop-image {
+  float: left;
+  margin-right: 20px;
+  width: 26%;
+}
+
+.mobile-image {
+  float: right;
+  margin-left: 20px;
+  width: 26%;
+}
+
+.middle-container {
+  margin: 50px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 0;
+  padding: 25px;
+  font-size: 2em;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+}
+
+.bottom-cloud {
+  border: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.me-image {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.profile, .skills {
+  margin: 50px auto 100px auto;
+}
+
+.profile {
+  width: 50%;
+}
+
+.profile-p {
+  text-align: left;
+  line-height: 2;
+}
+
+.copyright-tag {
+  margin-top: 30px;
+  color: #eaf6f6;
+  font-size: 0.8rem;
+}
+
+.icon8 {
+  font-size: 0.5rem;
+}
+
+.footer-link {
+  padding: 50px;
+  font-size: 1rem;
+}
+
+.contact-me {
+  margin: 25px;
+}
+
+.contact-me {
+  padding: 25px;
+}
+
+.btn {
+	box-shadow: 0 1px 0 0 #f0f7fa;
+	background:linear-gradient(to bottom, #66bfbf 5%, #11999e 100%);
+	background-color:#66bfbf;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0 -1px 0 #5b6178;
+  margin:20px
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #66bfbf 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
